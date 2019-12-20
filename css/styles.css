@@ -1,8 +1,30 @@
-.jumbotron {
-   background-image: url('../img/hero.jpg');
-   background-size: cover;
-   background-position: center;
+body{
+  background-image: url("../img/land-img.png");
 }
-.jumbotron h1 {
-   
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+.nav-pills > li.active > a {
+    color: #5C433F;
+    background-color: #EEDDCD;
+}
+.nav-pills > li.active > a:hover,
+.product button:hover,
+footer a:hover {
+    background-color: #EDF1F4;
+    color: #5C433F;
+}
+nav li {
+    font-size: 15px;
+}
+a:hover {
+    text-decoration: none;
+}
+nav {
+    top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
 }
