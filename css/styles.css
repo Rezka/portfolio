@@ -1,0 +1,8 @@
+.jumbotron {
+   background-image: url('../img/hero.jpg');
+   background-size: cover;
+   background-position: center;
+}
+.jumbotron h1 {
+   
+}
